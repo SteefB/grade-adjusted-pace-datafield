@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<debugInfo>
+<pcToLineNum>
+<entry filename="/Users/Steef/dev/Steeftracker/Grade-adjusted-pace/source/GradeadjustedpaceView.mc" lineNum="8" pc="268435456" symbol="initialize"/>
+<entry filename="/Users/Steef/dev/Steeftracker/Grade-adjusted-pace/source/GradeadjustedpaceView.mc" lineNum="9" pc="268435460" symbol="initialize"/>
+<entry filename="/Users/Steef/dev/Steeftracker/Grade-adjusted-pace/source/GradeadjustedpaceView.mc" lineNum="10" pc="268435478" symbol="initialize"/>
+<entry filename="/Users/Steef/dev/Steeftracker/Grade-adjusted-pace/source/GradeadjustedpaceView.mc" lineNum="14" pc="268435492" symbol="compute"/>
+<entry filename="/Users/Steef/dev/Steeftracker/Grade-adjusted-pace/source/GradeadjustedpaceView.mc" lineNum="15" pc="268435496" symbol="compute"/>
+<entry filename="/Users/Steef/dev/Steeftracker/Grade-adjusted-pace/source/GradeadjustedpaceView.mc" lineNum="16" pc="268435509" symbol="compute"/>
+<entry filename="/Users/Steef/dev/Steeftracker/Grade-adjusted-pace/source/GradeadjustedpaceView.mc" lineNum="19" pc="268435528" symbol="compute"/>
+<entry filename="/Users/Steef/dev/Steeftracker/Grade-adjusted-pace/source/GradeadjustedpaceView.mc" lineNum="20" pc="268435538" symbol="compute"/>
+<entry filename="/Users/Steef/dev/Steeftracker/Grade-adjusted-pace/source/GradeadjustedpaceView.mc" lineNum="21" pc="268435551" symbol="compute"/>
+<entry filename="/Users/Steef/dev/Steeftracker/Grade-adjusted-pace/source/GradeadjustedpaceView.mc" lineNum="22" pc="268435577" symbol="compute"/>
+<entry filename="/Users/Steef/dev/Steeftracker/Grade-adjusted-pace/source/GradeadjustedpaceView.mc" lineNum="23" pc="268435593" symbol="compute"/>
+<entry filename="/Users/Steef/dev/Steeftracker/Grade-adjusted-pace/source/GradeadjustedpaceView.mc" lineNum="24" pc="268435610" symbol="compute"/>
+<entry filename="/Users/Steef/dev/Steeftracker/Grade-adjusted-pace/source/GradeadjustedpaceView.mc" lineNum="26" pc="268435619" symbol="compute"/>
+<entry filename="/Users/Steef/dev/Steeftracker/Grade-adjusted-pace/source/GradeadjustedpaceView.mc" lineNum="27" pc="268435651" symbol="compute"/>
+<entry filename="/Users/Steef/dev/Steeftracker/Grade-adjusted-pace/source/GradeadjustedpaceView.mc" lineNum="28" pc="268435689" symbol="compute"/>
+<entry filename="/Users/Steef/dev/Steeftracker/Grade-adjusted-pace/source/GradeadjustedpaceView.mc" lineNum="29" pc="268435708" symbol="compute"/>
+<entry filename="/Users/Steef/dev/Steeftracker/Grade-adjusted-pace/source/GradeadjustedpaceView.mc" lineNum="30" pc="268435718" symbol="compute"/>
+<entry filename="/Users/Steef/dev/Steeftracker/Grade-adjusted-pace/source/GradeadjustedpaceView.mc" lineNum="31" pc="268435744" symbol="compute"/>
+<entry filename="/Users/Steef/dev/Steeftracker/Grade-adjusted-pace/source/GradeadjustedpaceApp.mc" lineNum="5" pc="268435748" symbol="initialize"/>
+<entry filename="/Users/Steef/dev/Steeftracker/Grade-adjusted-pace/source/GradeadjustedpaceApp.mc" lineNum="6" pc="268435752" symbol="initialize"/>
+<entry filename="/Users/Steef/dev/Steeftracker/Grade-adjusted-pace/source/GradeadjustedpaceApp.mc" lineNum="10" pc="268435771" symbol="onStart"/>
+<entry filename="/Users/Steef/dev/Steeftracker/Grade-adjusted-pace/source/GradeadjustedpaceApp.mc" lineNum="14" pc="268435776" symbol="onStop"/>
+<entry filename="/Users/Steef/dev/Steeftracker/Grade-adjusted-pace/source/GradeadjustedpaceApp.mc" lineNum="18" pc="268435781" symbol="getInitialView"/>
+<entry filename="/Users/Steef/dev/Steeftracker/Grade-adjusted-pace/source/GradeadjustedpaceApp.mc" lineNum="19" pc="268435785" symbol="getInitialView"/>
+</pcToLineNum>
+<symbolTable>
+<entry field="true" id="8388611" module="true" symbol="Toybox"/>
+<entry id="8388770" module="true" object="true" symbol="Strings"/>
+<entry id="8389280" method="true" symbol="getInitialView"/>
+<entry id="8388769" module="true" object="true" symbol="Rez"/>
+<entry id="8388702" method="true" symbol="initialize"/>
+<entry field="true" id="14" symbol="AppName"/>
+<entry field="true" id="13" symbol="LauncherIcon"/>
+<entry id="8389281" method="true" symbol="onStop"/>
+<entry id="8388771" module="true" object="true" symbol="Drawables"/>
+<entry id="8389137" method="true" symbol="compute"/>
+<entry id="8389279" method="true" symbol="onStart"/>
+<entry id="9" object="true" symbol="GradeadjustedpaceView"/>
+<entry id="10" object="true" symbol="GradeadjustedpaceApp"/>
+<entry id="12" module="true" symbol="Layouts"/>
+<entry id="8390088" module="true" object="true" symbol="JsonData"/>
+<entry field="true" id="15" symbol="previousAltitude"/>
+<entry id="11" module="true" symbol="Menus"/>
+<entry id="8388772" module="true" object="true" symbol="Fonts"/>
+</symbolTable>
+<localVars>
+<entry endPc="268435747" name="adjustedPace" stackId="5" startPc="268435619"/>
+<entry endPc="268435747" name="paceAdjustment" stackId="4" startPc="268435496"/>
+<entry endPc="268435747" name="currentAltitude" stackId="2" startPc="268435496"/>
+<entry endPc="268435747" name="altitudeDiff" stackId="3" startPc="268435496"/>
+<entry endPc="268435748" name="info" stackId="1" startPc="268435492"/>
+<entry endPc="268435776" name="state" stackId="1" startPc="268435771"/>
+<entry endPc="268435781" name="state" stackId="1" startPc="268435776"/>
+</localVars>
+<annotations/>
+<functions>
+<functionEntry accessMode="public" name="initialize" parent="GradeadjustedpaceView">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="compute" parent="GradeadjustedpaceView">
+<param id="info"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="initialize" parent="GradeadjustedpaceApp">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onStart" parent="GradeadjustedpaceApp">
+<param id="state"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onStop" parent="GradeadjustedpaceApp">
+<param id="state"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="getInitialView" parent="GradeadjustedpaceApp">
+<documentation/>
+</functionEntry>
+</functions>
+<dataEntryOffsetMappings>
+<dataEntry offset="87" parentId="" symbolId="globals" type="module"/>
+<dataEntry offset="166" parentId="globals" symbolId="Rez" type="module"/>
+<dataEntry offset="245" parentId="Rez" symbolId="Drawables" type="module"/>
+<dataEntry offset="284" parentId="Rez" symbolId="Menus" type="module"/>
+<dataEntry offset="315" parentId="Rez" symbolId="Fonts" type="module"/>
+<dataEntry offset="346" parentId="Rez" symbolId="JsonData" type="module"/>
+<dataEntry offset="377" parentId="Rez" symbolId="Layouts" type="module"/>
+<dataEntry offset="408" parentId="Rez" symbolId="Strings" type="module"/>
+<dataEntry offset="447" parentId="globals" symbolId="GradeadjustedpaceApp" type="class"/>
+<dataEntry offset="518" parentId="globals" symbolId="GradeadjustedpaceView" type="class"/>
+</dataEntryOffsetMappings>
+</debugInfo>
