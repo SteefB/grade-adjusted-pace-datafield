@@ -10,7 +10,7 @@ class GradeadjustedpaceView extends Ui.SimpleDataField {
         label = "GAP";
     }
 
-	// 30 meters of climbing costs around 20 seconds extra 
+	// 30 meters of climbing costs around 20 seconds extra
     function compute(info) {
     	if (previousAltitude == null) {
     		previousAltitude = info.altitude;
@@ -18,17 +18,17 @@ class GradeadjustedpaceView extends Ui.SimpleDataField {
     	
     	var currentAltitude = info.altitude;
     	var altitudeDiff = currentAltitude - previousAltitude;
-    	System.println( "Altitude diff: " +  altitudeDiff);
     	var paceAdjustment = (altitudeDiff / 30f) * 20;
     	if (info.currentSpeed <= 0f) {
-    		return "-";
+    		return "-:--";
     	} else {
-    		System.println("Current speed: " + info.currentSpeed);
-    		System.println("Pace (second per kilomter): " + (1000f / info.currentSpeed));
-	    	var adjustedPace = (1000f / info.currentSpeed) - paceAdjustment; 
+	    	var adjustedPaceSecondForKilometer = ((1000f / info.currentSpeed) - paceAdjustment).toLong(); 
+	    	System.println(adjustedPaceSecondForKilometer);
 	    	previousAltitude = currentAltitude;
-	        System.println("Adjusted Pace: " + adjustedPace);
-	        return adjustedPace;
+	    	
+	    	var paceMinutes = (adjustedPaceSecondForKilometer % 3600) / 60;
+	    	var paceSeconds = (adjustedPaceSecondForKilometer % 3600) % 60;
+	        return paceMinutes + ":" + paceSeconds;
 		}
     }
 
