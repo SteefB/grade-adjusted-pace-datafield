@@ -2,34 +2,47 @@ using Toybox.WatchUi as Ui;
 
 class GradeadjustedpaceView extends Ui.SimpleDataField {
 
+	var slopeMultiplierForAdjustment = -0.04f;
+	
+	var slopeCorrection =  0.98f;
+	
 	var previousAltitude = null;
 	
-    // Set the label of the data field here.
+	var previousDistance = 0;
+	
     function initialize() {
         SimpleDataField.initialize();
         label = "GAP";
     }
 
-	// 30 meters of climbing costs around 20 seconds extra
+	// formula: 30 meters of climbing costs distracts 20 second from the pace
     function compute(info) {
+    	if (info.currentSpeed <= 0f || info.elapsedDistance == null || info.altitude == null) {
+    		return "-:--";
+    	}
+    	
     	if (previousAltitude == null) {
     		previousAltitude = info.altitude;
     	}
-    	
-    	var currentAltitude = info.altitude;
-    	var altitudeDiff = currentAltitude - previousAltitude;
-    	var paceAdjustment = (altitudeDiff / 30f) * 20;
-    	if (info.currentSpeed <= 0f) {
-    		return "-:--";
-    	} else {
-	    	var adjustedPaceSecondForKilometer = ((1000f / info.currentSpeed) - paceAdjustment).toLong(); 
-	    	System.println(adjustedPaceSecondForKilometer);
-	    	previousAltitude = currentAltitude;
-	    	
-	    	var paceMinutes = (adjustedPaceSecondForKilometer % 3600) / 60;
-	    	var paceSeconds = (adjustedPaceSecondForKilometer % 3600) % 60;
-	        return paceMinutes + ":" + paceSeconds;
-		}
+
+    	var altitudeDiff = info.altitude - previousAltitude;
+    	var distanceDiff = info.elapsedDistance - previousDistance;
+    	System.println("Distance diff: " + distanceDiff);
+    	System.println("Altitude diff: " + altitudeDiff);
+    	var slope = ((distanceDiff / 100) * altitudeDiff);
+    	System.println("Slope: " + slope);
+    	var paceInSeconds =  1000f / info.currentSpeed;
+    	System.println("Pace in seconds: " + paceInSeconds);
+    	var paceAdjustedInSeconds = (paceInSeconds * (slopeMultiplierForAdjustment * slope + slopeCorrection)).toLong();
+    	System.println("Adjusted pace in seconds: " + paceAdjustedInSeconds);
+
+    	//var adjustedPaceSecondForKilometer = ((1000f / info.currentSpeed) - paceAdjustment).toLong(); 
+    	previousAltitude = info.altitude;
+    	previousDistance = info.elapsedDistance;
+    	var paceMinutes = (paceAdjustedInSeconds % 3600) / 60;
+    	var paceSeconds = (paceAdjustedInSeconds % 3600) % 60;
+        return paceMinutes + ":" + paceSeconds;
+		
     }
 
 }

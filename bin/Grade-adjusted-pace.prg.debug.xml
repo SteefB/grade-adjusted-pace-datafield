@@ -1,30 +1,35 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <debugInfo>
 <pcToLineNum>
-<entry filename="/Users/Steef/dev/Steeftracker/Grade-adjusted-pace/source/GradeadjustedpaceView.mc" lineNum="8" pc="268435456" symbol="initialize"/>
-<entry filename="/Users/Steef/dev/Steeftracker/Grade-adjusted-pace/source/GradeadjustedpaceView.mc" lineNum="9" pc="268435460" symbol="initialize"/>
-<entry filename="/Users/Steef/dev/Steeftracker/Grade-adjusted-pace/source/GradeadjustedpaceView.mc" lineNum="10" pc="268435478" symbol="initialize"/>
-<entry filename="/Users/Steef/dev/Steeftracker/Grade-adjusted-pace/source/GradeadjustedpaceView.mc" lineNum="14" pc="268435492" symbol="compute"/>
-<entry filename="/Users/Steef/dev/Steeftracker/Grade-adjusted-pace/source/GradeadjustedpaceView.mc" lineNum="15" pc="268435496" symbol="compute"/>
-<entry filename="/Users/Steef/dev/Steeftracker/Grade-adjusted-pace/source/GradeadjustedpaceView.mc" lineNum="16" pc="268435509" symbol="compute"/>
-<entry filename="/Users/Steef/dev/Steeftracker/Grade-adjusted-pace/source/GradeadjustedpaceView.mc" lineNum="19" pc="268435528" symbol="compute"/>
-<entry filename="/Users/Steef/dev/Steeftracker/Grade-adjusted-pace/source/GradeadjustedpaceView.mc" lineNum="20" pc="268435538" symbol="compute"/>
-<entry filename="/Users/Steef/dev/Steeftracker/Grade-adjusted-pace/source/GradeadjustedpaceView.mc" lineNum="21" pc="268435551" symbol="compute"/>
-<entry filename="/Users/Steef/dev/Steeftracker/Grade-adjusted-pace/source/GradeadjustedpaceView.mc" lineNum="22" pc="268435577" symbol="compute"/>
-<entry filename="/Users/Steef/dev/Steeftracker/Grade-adjusted-pace/source/GradeadjustedpaceView.mc" lineNum="23" pc="268435593" symbol="compute"/>
-<entry filename="/Users/Steef/dev/Steeftracker/Grade-adjusted-pace/source/GradeadjustedpaceView.mc" lineNum="24" pc="268435610" symbol="compute"/>
-<entry filename="/Users/Steef/dev/Steeftracker/Grade-adjusted-pace/source/GradeadjustedpaceView.mc" lineNum="26" pc="268435619" symbol="compute"/>
-<entry filename="/Users/Steef/dev/Steeftracker/Grade-adjusted-pace/source/GradeadjustedpaceView.mc" lineNum="27" pc="268435651" symbol="compute"/>
-<entry filename="/Users/Steef/dev/Steeftracker/Grade-adjusted-pace/source/GradeadjustedpaceView.mc" lineNum="28" pc="268435689" symbol="compute"/>
-<entry filename="/Users/Steef/dev/Steeftracker/Grade-adjusted-pace/source/GradeadjustedpaceView.mc" lineNum="29" pc="268435708" symbol="compute"/>
-<entry filename="/Users/Steef/dev/Steeftracker/Grade-adjusted-pace/source/GradeadjustedpaceView.mc" lineNum="30" pc="268435718" symbol="compute"/>
-<entry filename="/Users/Steef/dev/Steeftracker/Grade-adjusted-pace/source/GradeadjustedpaceView.mc" lineNum="31" pc="268435744" symbol="compute"/>
-<entry filename="/Users/Steef/dev/Steeftracker/Grade-adjusted-pace/source/GradeadjustedpaceApp.mc" lineNum="5" pc="268435748" symbol="initialize"/>
-<entry filename="/Users/Steef/dev/Steeftracker/Grade-adjusted-pace/source/GradeadjustedpaceApp.mc" lineNum="6" pc="268435752" symbol="initialize"/>
-<entry filename="/Users/Steef/dev/Steeftracker/Grade-adjusted-pace/source/GradeadjustedpaceApp.mc" lineNum="10" pc="268435771" symbol="onStart"/>
-<entry filename="/Users/Steef/dev/Steeftracker/Grade-adjusted-pace/source/GradeadjustedpaceApp.mc" lineNum="14" pc="268435776" symbol="onStop"/>
-<entry filename="/Users/Steef/dev/Steeftracker/Grade-adjusted-pace/source/GradeadjustedpaceApp.mc" lineNum="18" pc="268435781" symbol="getInitialView"/>
-<entry filename="/Users/Steef/dev/Steeftracker/Grade-adjusted-pace/source/GradeadjustedpaceApp.mc" lineNum="19" pc="268435785" symbol="getInitialView"/>
+<entry filename="/Users/Steef/dev/Steeftracker/Grade-adjusted-pace/source/GradeadjustedpaceView.mc" lineNum="13" pc="268435456" symbol="initialize"/>
+<entry filename="/Users/Steef/dev/Steeftracker/Grade-adjusted-pace/source/GradeadjustedpaceView.mc" lineNum="14" pc="268435460" symbol="initialize"/>
+<entry filename="/Users/Steef/dev/Steeftracker/Grade-adjusted-pace/source/GradeadjustedpaceView.mc" lineNum="15" pc="268435478" symbol="initialize"/>
+<entry filename="/Users/Steef/dev/Steeftracker/Grade-adjusted-pace/source/GradeadjustedpaceView.mc" lineNum="19" pc="268435492" symbol="compute"/>
+<entry filename="/Users/Steef/dev/Steeftracker/Grade-adjusted-pace/source/GradeadjustedpaceView.mc" lineNum="20" pc="268435496" symbol="compute"/>
+<entry filename="/Users/Steef/dev/Steeftracker/Grade-adjusted-pace/source/GradeadjustedpaceView.mc" lineNum="21" pc="268435545" symbol="compute"/>
+<entry filename="/Users/Steef/dev/Steeftracker/Grade-adjusted-pace/source/GradeadjustedpaceView.mc" lineNum="24" pc="268435554" symbol="compute"/>
+<entry filename="/Users/Steef/dev/Steeftracker/Grade-adjusted-pace/source/GradeadjustedpaceView.mc" lineNum="25" pc="268435567" symbol="compute"/>
+<entry filename="/Users/Steef/dev/Steeftracker/Grade-adjusted-pace/source/GradeadjustedpaceView.mc" lineNum="28" pc="268435586" symbol="compute"/>
+<entry filename="/Users/Steef/dev/Steeftracker/Grade-adjusted-pace/source/GradeadjustedpaceView.mc" lineNum="29" pc="268435605" symbol="compute"/>
+<entry filename="/Users/Steef/dev/Steeftracker/Grade-adjusted-pace/source/GradeadjustedpaceView.mc" lineNum="30" pc="268435624" symbol="compute"/>
+<entry filename="/Users/Steef/dev/Steeftracker/Grade-adjusted-pace/source/GradeadjustedpaceView.mc" lineNum="31" pc="268435650" symbol="compute"/>
+<entry filename="/Users/Steef/dev/Steeftracker/Grade-adjusted-pace/source/GradeadjustedpaceView.mc" lineNum="32" pc="268435676" symbol="compute"/>
+<entry filename="/Users/Steef/dev/Steeftracker/Grade-adjusted-pace/source/GradeadjustedpaceView.mc" lineNum="33" pc="268435689" symbol="compute"/>
+<entry filename="/Users/Steef/dev/Steeftracker/Grade-adjusted-pace/source/GradeadjustedpaceView.mc" lineNum="34" pc="268435715" symbol="compute"/>
+<entry filename="/Users/Steef/dev/Steeftracker/Grade-adjusted-pace/source/GradeadjustedpaceView.mc" lineNum="35" pc="268435731" symbol="compute"/>
+<entry filename="/Users/Steef/dev/Steeftracker/Grade-adjusted-pace/source/GradeadjustedpaceView.mc" lineNum="36" pc="268435757" symbol="compute"/>
+<entry filename="/Users/Steef/dev/Steeftracker/Grade-adjusted-pace/source/GradeadjustedpaceView.mc" lineNum="37" pc="268435791" symbol="compute"/>
+<entry filename="/Users/Steef/dev/Steeftracker/Grade-adjusted-pace/source/GradeadjustedpaceView.mc" lineNum="40" pc="268435817" symbol="compute"/>
+<entry filename="/Users/Steef/dev/Steeftracker/Grade-adjusted-pace/source/GradeadjustedpaceView.mc" lineNum="41" pc="268435833" symbol="compute"/>
+<entry filename="/Users/Steef/dev/Steeftracker/Grade-adjusted-pace/source/GradeadjustedpaceView.mc" lineNum="42" pc="268435849" symbol="compute"/>
+<entry filename="/Users/Steef/dev/Steeftracker/Grade-adjusted-pace/source/GradeadjustedpaceView.mc" lineNum="43" pc="268435865" symbol="compute"/>
+<entry filename="/Users/Steef/dev/Steeftracker/Grade-adjusted-pace/source/GradeadjustedpaceView.mc" lineNum="44" pc="268435881" symbol="compute"/>
+<entry filename="/Users/Steef/dev/Steeftracker/Grade-adjusted-pace/source/GradeadjustedpaceApp.mc" lineNum="5" pc="268435894" symbol="initialize"/>
+<entry filename="/Users/Steef/dev/Steeftracker/Grade-adjusted-pace/source/GradeadjustedpaceApp.mc" lineNum="6" pc="268435898" symbol="initialize"/>
+<entry filename="/Users/Steef/dev/Steeftracker/Grade-adjusted-pace/source/GradeadjustedpaceApp.mc" lineNum="10" pc="268435917" symbol="onStart"/>
+<entry filename="/Users/Steef/dev/Steeftracker/Grade-adjusted-pace/source/GradeadjustedpaceApp.mc" lineNum="14" pc="268435922" symbol="onStop"/>
+<entry filename="/Users/Steef/dev/Steeftracker/Grade-adjusted-pace/source/GradeadjustedpaceApp.mc" lineNum="18" pc="268435927" symbol="getInitialView"/>
+<entry filename="/Users/Steef/dev/Steeftracker/Grade-adjusted-pace/source/GradeadjustedpaceApp.mc" lineNum="19" pc="268435931" symbol="getInitialView"/>
 </pcToLineNum>
 <symbolTable>
 <entry field="true" id="8388611" module="true" symbol="Toybox"/>
@@ -37,23 +42,29 @@
 <entry id="8389281" method="true" symbol="onStop"/>
 <entry id="8388771" module="true" object="true" symbol="Drawables"/>
 <entry id="8389137" method="true" symbol="compute"/>
+<entry field="true" id="16" symbol="slopeCorrection"/>
 <entry id="8389279" method="true" symbol="onStart"/>
+<entry field="true" id="15" symbol="slopeMultiplierForAdjustment"/>
 <entry id="9" object="true" symbol="GradeadjustedpaceView"/>
 <entry id="10" object="true" symbol="GradeadjustedpaceApp"/>
+<entry field="true" id="18" symbol="previousDistance"/>
 <entry id="12" module="true" symbol="Layouts"/>
 <entry id="8390088" module="true" object="true" symbol="JsonData"/>
-<entry field="true" id="15" symbol="previousAltitude"/>
+<entry field="true" id="17" symbol="previousAltitude"/>
 <entry id="11" module="true" symbol="Menus"/>
 <entry id="8388772" module="true" object="true" symbol="Fonts"/>
 </symbolTable>
 <localVars>
-<entry endPc="268435747" name="adjustedPace" stackId="5" startPc="268435619"/>
-<entry endPc="268435747" name="paceAdjustment" stackId="4" startPc="268435496"/>
-<entry endPc="268435747" name="currentAltitude" stackId="2" startPc="268435496"/>
-<entry endPc="268435747" name="altitudeDiff" stackId="3" startPc="268435496"/>
-<entry endPc="268435748" name="info" stackId="1" startPc="268435492"/>
-<entry endPc="268435776" name="state" stackId="1" startPc="268435771"/>
-<entry endPc="268435781" name="state" stackId="1" startPc="268435776"/>
+<entry endPc="268435893" name="slope" stackId="4" startPc="268435496"/>
+<entry endPc="268435893" name="paceSeconds" stackId="8" startPc="268435496"/>
+<entry endPc="268435893" name="paceAdjustedInSeconds" stackId="6" startPc="268435496"/>
+<entry endPc="268435893" name="distanceDiff" stackId="3" startPc="268435496"/>
+<entry endPc="268435893" name="paceInSeconds" stackId="5" startPc="268435496"/>
+<entry endPc="268435893" name="paceMinutes" stackId="7" startPc="268435496"/>
+<entry endPc="268435893" name="altitudeDiff" stackId="2" startPc="268435496"/>
+<entry endPc="268435894" name="info" stackId="1" startPc="268435492"/>
+<entry endPc="268435922" name="state" stackId="1" startPc="268435917"/>
+<entry endPc="268435927" name="state" stackId="1" startPc="268435922"/>
 </localVars>
 <annotations/>
 <functions>
